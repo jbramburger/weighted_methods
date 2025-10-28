@@ -9,3 +9,9 @@ Many data-driven algorithms in dynamical systems are built on ergodic averages t
 Many of the data files are too large to put on GitHub. Therefore, you can download all necessary data from google drive: [https://drive.google.com/drive/folders/1mz0lm0a49nZQ8MsghGh7-qHAc45uLu6V?usp=sharing](https://drive.google.com/drive/folders/1mz0lm0a49nZQ8MsghGh7-qHAc45uLu6V?usp=sharing)
 
 ## **Repository Contents**
+This repository currently contains five folders, each associated to a subsection of the demonstrations section in the paper. They are organized as follows:
+
+- **Section 3.1**: [**Dynamic Mode Decomposition**](https://github.com/jbramburger/weighted_methods/tree/main/Dynamic%20Mode%20Decomposition). This folder contains the code to implement weighted dynamic mode decomposition (DMD) and compare its performance to standard DMD. The method is applied to fluid flow around a cylinder data and the script can be used to load and recreate all data from the paper.
+- **Section 3.2**: [**Extended Dynamic Mode Decomposition**](https://github.com/jbramburger/weighted_methods/tree/main/Dynamic%20Mode%20Decomposition).
+
+ 
