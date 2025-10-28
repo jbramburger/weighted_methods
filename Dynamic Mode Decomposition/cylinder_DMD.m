@@ -9,7 +9,9 @@
 % 
 % The for this demonstration is stored in Vorticity_data.mat and was
 % provided by Matthew Colbrook. We also use pre-saved random orthogonal 
-% vectors to project the data onto, which is stored in rand_ortho.mat. 
+% vectors to project the data onto, which is stored in rand_ortho.mat. Both 
+% of these data files are available in the google drive:
+% https://drive.google.com/drive/folders/1mz0lm0a49nZQ8MsghGh7-qHAc45uLu6V?usp=sharing  
 %
 % This script accompanies Section 3.1 of Weighted Birkhoff Averages 
 % Accelerate Data-Driven Methods. 
