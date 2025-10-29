@@ -11,7 +11,8 @@ Many of the data files are too large to put on GitHub. Therefore, you can downlo
 ## **Repository Contents**
 This repository currently contains five folders, each associated to a subsection of the demonstrations section in the paper. They are organized as follows:
 
-- **Section 3.1**: [**Dynamic Mode Decomposition**](https://github.com/jbramburger/weighted_methods/tree/main/Dynamic%20Mode%20Decomposition). This folder contains the code to implement weighted dynamic mode decomposition (DMD) and compare its performance to standard DMD. The method is applied to fluid flow around a cylinder data and the script can be used to load and recreate all data from the paper.
-- **Section 3.2**: [**Extended Dynamic Mode Decomposition**](https://github.com/jbramburger/weighted_methods/tree/main/Dynamic%20Mode%20Decomposition).
+- **Section 3.1**: [**Dynamic Mode Decomposition**](https://github.com/jbramburger/weighted_methods/tree/main/Dynamic%20Mode%20Decomposition). This folder contains the code to implement weighted dynamic mode decomposition (wtDMD) and compare its performance to standard dynamic mode decomposition. The method is applied to fluid flow around a cylinder data and the script can be used to load and recreate all data from the paper.
+- **Section 3.2**: [**Extended Dynamic Mode Decomposition**](https://github.com/jbramburger/weighted_methods/tree/main/Dynamic%20Mode%20Decomposition). This folder contains the code to implement weighted extended dynamic mode decomposition (wtEDMD) and compare its performance to standard extended dynamic mode decomposition. The method is applied to synthetic data gathered from the standard map on the torus and the script can be used to load and recreate all data from the paper.
+- **Section 3.3**: [**Model Identification**](https://github.com/jbramburger/weighted_methods/tree/main/Dynamic%20Mode%20Decomposition).
 
  
