@@ -7,6 +7,17 @@
 %
 % Requires Chebfun to build spectral measure. Download at: 
 %     https://www.chebfun.org/download/
+%
+% To reproduce generalized eigenfunctions download RiggedDMD at: 
+%     https://github.com/MColbrook/Rigged-Dynamic-Mode-Decomposition
+%     --> Use the CAVITY_example.m script and keep line 41 for the
+%     unweighted method and add the following line after for the weighted
+%     version:
+%
+%     gMODES2 = riggedDMD_MODES(PX,PY,w,epsilon,TH,[],'order',order,'g_coeffs',g_coeffs);
+%
+%     Here w is the same weight function used in lines 59-63 in this
+%     script.
 % 
 % This script accompanies Section 3.4 of Weighted Birkhoff Averages 
 % Accelerate Data-Driven Methods. 
