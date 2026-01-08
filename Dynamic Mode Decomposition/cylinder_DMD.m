@@ -48,16 +48,16 @@ w(end) = 0;
 %% Weighted and standard DMD algorithms
 
 % Project data onto orthogonal modes
-PX = X'*U;
-PY = Y'*U;
+PX = U'*X; 
+PY = U'*Y; 
 
 % Create weighted snapshot matrices
-PXw = sqrt(w').*PX;
-PYw = sqrt(w').*PY;
+PXw = PX.*sqrt(w);
+PYw = PY.*sqrt(w);
 
 % DMD matrices
-K = pinv(PX)*PY; % unweighted
-Kw = pinv(PXw)*PYw; % weighted
+K = PY*pinv(PX); % unweighted
+Kw = PYw*pinv(PXw); % weighted
 
 %% Extract DMD eigenvalues
 
